@@ -1,14 +1,15 @@
-# rust-intermedite
+# Implementing Zookeeper in RUST :crab:
+
 Learning hardcore RUST from Jon Gjengset Youtube
 
 
-# Setup Guide
+**Setup Guide**
+Check master branch
 
+# Zookeeper
 
+> Zookeeper has pretty bad documentation.
 
-##  [Rustup](https://rustup.rs/)
-## [Setup RLS](https://github.com/rust-lang/rls)
+> Kafka which uses Zookeeper to maintain its configuration details wants to move away from it. They have implemented to migrate in Kafk version 5.5. 
 
-> Rustup required for RLS
-### VSCode
-VSCode Rust extension uses RLS
+ 
