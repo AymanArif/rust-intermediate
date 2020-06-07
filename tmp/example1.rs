@@ -42,6 +42,7 @@ fn main() {
     // Spawn: Tells Executor to run future in the background    
     a.spawn(fut_x.and_then(|eq| assert!(eq))
     b.spawn(fut_y.and_then(|eq| assert!(eq))
-            
+    
+    let xy = a.run_all(vec![fut_x, fut_y]);
 }
 
