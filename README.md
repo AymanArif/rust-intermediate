@@ -1,14 +1,3 @@
-# rust-intermedite
-Learning hardcore RUST from Jon Gjengset Youtube
+# Implementing TCP in Rust :crab:
 
-
-# Setup Guide
-
-
-
-##  [Rustup](https://rustup.rs/)
-## [Setup RLS](https://github.com/rust-lang/rls)
-
-> Rustup required for RLS
-### VSCode
-VSCode Rust extension uses RLS
+[YT Link](https://www.youtube.com/watch?v=bzja9fQWzdA)
