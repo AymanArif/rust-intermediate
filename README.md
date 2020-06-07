@@ -1,14 +1,5 @@
-# rust-intermedite
-Learning hardcore RUST from Jon Gjengset Youtube
+# Declarative Macros in Rust :crab:
 
+> In this video, we'll look into Macros in Rust, using the example of Vector Macro
 
-# Setup Guide
-
-
-
-##  [Rustup](https://rustup.rs/)
-## [Setup RLS](https://github.com/rust-lang/rls)
-
-> Rustup required for RLS
-### VSCode
-VSCode Rust extension uses RLS
+[YT Link](https://www.youtube.com/watch?v=q6paRBbLgNw&t)
