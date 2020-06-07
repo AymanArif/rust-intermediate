@@ -1,14 +1,9 @@
-# rust-intermedite
+# Lifetime Annotation in Rust :crab:
 Learning hardcore RUST from Jon Gjengset Youtube
 
 
-# Setup Guide
+> This tutorial will show how to split a string. Sort of like map,reduce and filter in JS
 
 
 
-##  [Rustup](https://rustup.rs/)
-## [Setup RLS](https://github.com/rust-lang/rls)
 
-> Rustup required for RLS
-### VSCode
-VSCode Rust extension uses RLS
