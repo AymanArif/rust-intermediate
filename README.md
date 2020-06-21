@@ -6,12 +6,21 @@
 
 
 # Table of Contents
+
+- [Async operations in RUST :crab:](#async-operations-in-rust-crab)
+- [Table of Contents](#table-of-contents)
 - [Crate Links](#crate-links)
 - [Links](#links)
-- [Futures](#futures)
+- [Futures Concept](#futures-concept)
   * [Java](#java)
   * [Javascript](#javascript)
-
+- [Futures in Rust](#futures-in--rust)
+  * [Crate `futures`](#crate-futures)
+    + [Trait](#trait)
+    + [Modules](#modules)
+  * [Trait `futures::future::Future`](#trait-futuresfuturefuture)
+  * [Trait `std::future::Future`](#trait-stdfuturefuture)
+- [Youtube TOC](#youtube-toc)
 # Crate Links 
 
 1. [Trait futures::future::Future](https://docs.rs/futures/0.2.0/futures/future/trait.Future.html)
@@ -76,3 +85,29 @@ In `example1.rs`; it is analogous to `boolean` in `.and_then(|c, boolean| ...)`
 
 
 ## Trait `std::future::Future` 
+
+# Futures to Tokio 
+
+|Name|Description|
+|--|--|
+|Futures|Defines the interfaces for **Task, Executors, Notifiers.etc**, but does not give you implementation |
+|Tokio|Gives you implementation for async.operations| 
+
+- Tokio::Reactor has been moved to Tokio::io and tokio::runtime
+
+
+
+# Youtube ToC 
+- How are futures executed?
+- Super weird audio problems
+- How do you integrate futures with I/O?
+- Driving futures with Tokio
+- Multi-threaded future execution
+- Stream and Sink
+- (brief aside about tokio-io-pool)
+- Putting futures in the standard library
+- Arbitrary self types
+- What is async/await?
+- Why is async/await hard?
+- Self-referential data-types
+- Pinning! 
