@@ -1,7 +1,7 @@
 
-# Smart Pointers & Immutability in RUST :crab:
+# Channels in RUST :crab:
 
-- [Youtube Link](https://www.youtube.com/watch?v=8O0Nt9qY_vo)
+- [Youtube Link](https://www.youtube.com/watch?v=b4mS5UPHh20)
 
 
 
